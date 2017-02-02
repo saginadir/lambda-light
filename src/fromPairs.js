@@ -1,0 +1,1 @@
+module.exports = (arr) => arr.reduce( (ob, val) => Object.assign(ob, {[val[0]]: val[1]}), {});

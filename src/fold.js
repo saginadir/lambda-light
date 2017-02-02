@@ -1,0 +1,1 @@
+module.exports = (ifunctor) => ifunctor.find(() => true);
